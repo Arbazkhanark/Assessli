@@ -2,7 +2,7 @@ const Footer = () => {
     const yrs=new Date().getFullYear();
   return (
     <div className="bg-black">
-    <img src="../../public/dbz.gif" className="w-[15%]" alt="img" />
+    <img src="/dbz.gif" className="lg:w-[15%] md:w-[18%] max-sm:hidden" alt="img" />
       <footer className="text-white rounded-lg shadow">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-500 sm:text-center ">
